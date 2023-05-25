@@ -1,5 +1,6 @@
-@import-normalize; /* bring in normalize.css styles */
-
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,9 +8,110 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E7ECF2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #f1f1f1;
+margin-left: auto;
+margin-right: auto;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+  color: #1F3349;
+}
+
+.tag,
+.location {
+  margin-bottom: 8px;
+  color: #C7CED5;
+}
+.location:last-child {
+  margin-bottom: 25px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #F3F6F9;
+
+}
+
+.stats-description {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 24px;
+  border-right: 1px solid #E4E9F0;
+  display: flex;
+  flex-direction: column;
+}
+.stats-description:last-child {
+  border-right: none;
+}
+
+.label {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #C7CED5;
+}
+
+.quantity {
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #1F3349;
+}
+.description {
+  width: 297px;
+  height: 300px;
+  background-color: #ffff;
+  text-align: center;
 }
