@@ -4,8 +4,8 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #E7ECF2;
@@ -32,10 +32,13 @@ ol {
   list-style: none;
 }
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
+
+
 /* PROFILE */
 .profile {
   width: 300px;
@@ -46,11 +49,10 @@ img {
   justify-content: center;
   margin-top: 50px;
   background-color: #f1f1f1;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
 }
-
 .avatar {
   width: 150px;
   height: 150px;
@@ -59,7 +61,6 @@ margin-bottom: 120px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
 .name {
   font-weight: bold;
   font-size: 20px;
@@ -67,7 +68,6 @@ margin-bottom: 120px;
   margin-bottom: 8px;
   color: #1F3349;
 }
-
 .tag,
 .location {
   margin-bottom: 8px;
@@ -76,7 +76,6 @@ margin-bottom: 120px;
 .location:last-child {
   margin-bottom: 25px;
 }
-
 .stats {
   display: flex;
   justify-content: center;
@@ -84,7 +83,6 @@ margin-bottom: 120px;
   background-color: #F3F6F9;
 
 }
-
 .stats-description {
   text-align: center;
   padding-top: 20px;
@@ -99,18 +97,15 @@ margin-bottom: 120px;
 .stats-description:last-child {
   border-right: none;
 }
-
 .stats-description:hover {
   cursor: pointer;
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
 }
-
 .label {
  font-family: Arial, Helvetica, sans-serif;
  color: #C7CED5;
 }
-
 .quantity {
   margin-top: 5px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -124,8 +119,9 @@ margin-bottom: 120px;
   text-align: center;
 }
 
- /* STATISTICS */
 
+
+ /* STATISTICS */
  .statistics {
   text-align: center;
   margin-bottom: 120px;
@@ -168,6 +164,8 @@ margin-bottom: 120px;
   color: #FFFF;
   font-weight: bold;
  }
+
+
 
  /* FRIENDS*/
  .friend-list-online {
@@ -220,8 +218,9 @@ margin-bottom: 120px;
   margin-right: 20px;
 }
 
-/* TRANSACTIONS */
 
+
+/* TRANSACTIONS */
 .transaction-history {
   width: 80%;
   height: 80%;
@@ -231,7 +230,6 @@ margin-bottom: 120px;
   border-collapse: collapse;
   margin-bottom: 50px;
 }
-
 .transaction-header {
   background-color: #f5f5f5;
   font-weight: bold;
@@ -247,11 +245,9 @@ margin-bottom: 120px;
   font-weight: bold;
 
 }
-
 .transaction-body {
   text-align: center;
 }
-
 .transaction-item {
   padding: 20px;
   border: 1px solid grey;
