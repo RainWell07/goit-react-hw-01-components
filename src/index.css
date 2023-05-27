@@ -31,11 +31,6 @@ ol {
   padding-right: 0;
   list-style: none;
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 
 
@@ -43,21 +38,13 @@ img {
 .profile {
   width: 300px;
   height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-top: 50px;
   background-color: #f1f1f1;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
 }
 .avatar {
   width: 150px;
   height: 150px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -113,12 +100,11 @@ img {
   color: #1F3349;
 }
 .description {
-  width: 297px;
+  width: 300px;
   height: 300px;
   background-color: #ffff;
   text-align: center;
 }
-
 
 
  /* STATISTICS */
